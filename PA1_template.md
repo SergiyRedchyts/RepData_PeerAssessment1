@@ -1,9 +1,4 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
+# Reproducible Research: Peer Assessment 1
 
 **Student** Sergiy Redchyts
 
@@ -186,7 +181,7 @@ Mean value is almoust the same, but median value is lower after inputing missing
 
 For this part we will use the wday() function and the dataset with the filled-in missing values (*data1*).
 
-1. Creating a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
+1. Creating a new factor variable in the dataset with two levels â€“ â€œweekdayâ€ and â€œweekendâ€ indicating whether a given date is a weekday or weekend day.
 
 ```r
 data1 <- mutate(data1, day = wday(date)) # add day number as a new variable
